@@ -9,21 +9,25 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "next": "16.1.6",
+    "next": "^16.1.6",
     "postcss": "^8.5.6",
-    "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.2.1",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@types/node": "^25.3.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
     "autoprefixer": "^10.4.24",
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
-    "tailwindcss": "^3.4.19",
-    "typescript": "^5"
-  }
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5.9.3"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:cassiodevpro/teste-pratico-fullstack-documentation.git",
+  "author": "CassioDevPro <cassiodevpro@gmail.com>",
+  "license": "MIT"
 }

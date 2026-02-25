@@ -25,9 +25,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`min-h-screen w-full text-white flex items-center justify-center py-12 px-4 ${geistSans.variable} ${geistMono.variable} antialiased`}
+        style={{ background: "linear-gradient(135deg, #0a2240, #1a2a4a)" }}
       >
-        {children}
+        <main className="w-full max-w-3xl bg-[#162447] rounded-2xl shadow-xl p-8 md:p-12 flex flex-col gap-8 items-center">
+          {children}
+        </main>
       </body>
     </html>
   );
