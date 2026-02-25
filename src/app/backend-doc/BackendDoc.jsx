@@ -1,7 +1,7 @@
 export default function BackendDoc() {
   return (
     <div className="min-h-screen w-full bg-gradient-to-br from-[#0a2240] to-[#1a2a4a] text-white font-sans flex items-start justify-center py-16 px-4">
-      <main className="w-full max-w-3xl bg-[#162447] rounded-2xl shadow-xl p-8 md:p-12 flex flex-col gap-12 items-center mt-8">
+      <main className="w-full max-w-3xl bg-[#162447] rounded-2xl shadow-xl p-8 md:p-12 flex flex-col gap-12 items-center mt-8 mb-24">
         <header className="w-full flex flex-col items-center mb-8">
           <h1 className="text-4xl font-bold text-[#7fd8f5] text-center mb-2">🏭 Production Optimizer — Back-end</h1>
           <p className="text-lg text-[#e0e6ed] text-center mb-4">
@@ -114,7 +114,7 @@ mvn spring-boot:run`}</code>
         <section className="w-full flex flex-col items-center mb-8">
           <h3 className="text-xl font-bold mb-2 text-[#7fd8f5] text-center">Matérias-Primas</h3>
           <div className="mb-2 text-lg text-center">
-            POST <span className="font-mono bg-[#233554] rounded px-1">{`{{base_url}}/api/raw-materials`}</span>
+            POST <span className="font-mono bg-[#233554] rounded px-1 flex justify-center">{`{{base_url}}/api/raw-materials`}</span>
           </div>
           <pre className="bg-[#233554] rounded p-4 text-xs overflow-x-auto mb-2 text-center">
             <code>{`{
@@ -124,22 +124,22 @@ mvn spring-boot:run`}</code>
 }`}</code>
           </pre>
           <div className="mb-4 text-sm text-center">
-            Resposta esperada: <span className="font-mono bg-[#233554] rounded px-1">201 Created</span>
+            Resposta esperada: <span className="font-mono bg-[#233554] rounded px-1 flex justify-center">201 Created</span>
           </div>
           <div className="mb-2 text-lg text-center">
-            GET <span className="font-mono bg-[#233554] rounded px-1">{`{{base_url}}/api/raw-materials`}</span>
+            GET <span className="font-mono bg-[#233554] rounded px-1 flex justify-center">{`{{base_url}}/api/raw-materials`}</span>
           </div>
           <div className="mb-4 text-sm text-center">
-            Resposta esperada: <span className="font-mono bg-[#233554] rounded px-1">200 OK</span> — array com todos os registros
+            Resposta esperada: <span className="font-mono bg-[#233554] rounded px-1 flex justify-center">200 OK</span> — array com todos os registros
           </div>
           <div className="mb-2 text-lg text-center">
-            GET <span className="font-mono bg-[#233554] rounded px-1">{`{{base_url}}/api/raw-materials/1`}</span>
+            GET <span className="font-mono bg-[#233554] rounded px-1 flex justify-center">{`{{base_url}}/api/raw-materials/1`}</span>
           </div>
           <div className="mb-4 text-sm text-center">
-            Resposta esperada: <span className="font-mono bg-[#233554] rounded px-1">200 OK</span> — objeto da matéria-prima
+            Resposta esperada: <span className="font-mono bg-[#233554] rounded px-1 flex justify-center">200 OK</span> — objeto da matéria-prima
           </div>
           <div className="mb-2 text-lg text-center">
-            PUT <span className="font-mono bg-[#233554] rounded px-1">{`{{base_url}}/api/raw-materials/1`}</span>
+            PUT <span className="font-mono bg-[#233554] rounded px-1 flex justify-center">{`{{base_url}}/api/raw-materials/1`}</span>
           </div>
           <pre className="bg-[#233554] rounded p-4 text-xs overflow-x-auto mb-2 text-center">
             <code>{`{
@@ -149,20 +149,20 @@ mvn spring-boot:run`}</code>
 }`}</code>
           </pre>
           <div className="mb-4 text-sm text-center">
-            Resposta esperada: <span className="font-mono bg-[#233554] rounded px-1">200 OK</span>
+            Resposta esperada: <span className="font-mono bg-[#233554] rounded px-1 flex justify-center">200 OK</span>
           </div>
           <div className="mb-2 text-lg text-center">
-            DELETE <span className="font-mono bg-[#233554] rounded px-1">{`{{base_url}}/api/raw-materials/1`}</span>
+            DELETE <span className="font-mono bg-[#233554] rounded px-1 flex justify-center">{`{{base_url}}/api/raw-materials/1`}</span>
           </div>
           <div className="mb-4 text-sm text-center">
-            Resposta esperada: <span className="font-mono bg-[#233554] rounded px-1">204 No Content</span>
+            Resposta esperada: <span className="font-mono bg-[#233554] rounded px-1 flex justify-center">204 No Content</span>
           </div>
         </section>
         
         <section className="w-full flex flex-col items-center mb-8">
           <h3 className="text-xl font-bold mb-2 text-[#7fd8f5] text-center">Produtos</h3>
           <div className="mb-2 text-lg text-center">
-            POST <span className="font-mono bg-[#233554] rounded px-1">{`{{base_url}}/api/products`}</span>
+            POST <span className="font-mono bg-[#233554] rounded px-1 flex justify-center">{`{{base_url}}/api/products`}</span>
           </div>
           <pre className="bg-[#233554] rounded p-4 text-xs overflow-x-auto mb-2 text-center">
             <code>{`{
@@ -176,23 +176,23 @@ mvn spring-boot:run`}</code>
 }`}</code>
           </pre>
           <div className="mb-4 text-sm text-center">
-            Resposta esperada: <span className="font-mono bg-[#233554] rounded px-1">201 Created</span>
+            Resposta esperada: <span className="font-mono bg-[#233554] rounded px-1 flex justify-center">201 Created</span>
           </div>
           <div className="mb-2 text-lg text-center">
-            GET <span className="font-mono bg-[#233554] rounded px-1">{`{{base_url}}/api/products`}</span>
+            GET <span className="font-mono bg-[#233554] rounded px-1 flex justify-center">{`{{base_url}}/api/products`}</span>
           </div>
           <div className="mb-2 text-lg text-center">
-            PUT <span className="font-mono bg-[#233554] rounded px-1">{`{{base_url}}/api/products/1`}</span> — mesmo body do POST com alterações
+            PUT <span className="font-mono bg-[#233554] rounded px-1 flex justify-center">{`{{base_url}}/api/products/1`}</span> — mesmo body do POST com alterações
           </div>
           <div className="mb-2 text-lg text-center">
-            DELETE <span className="font-mono bg-[#233554] rounded px-1">{`{{base_url}}/api/products/1`}</span> — <span className="font-mono bg-[#233554] rounded px-1">204 No Content</span>
+            DELETE <span className="font-mono bg-[#233554] rounded px-1 flex justify-center">{`{{base_url}}/api/products/1`}</span> — <span className="font-mono bg-[#233554] rounded px-1 flex justify-center">204 No Content</span>
           </div>
         </section>
         
         <section className="w-full flex flex-col items-center mb-8">
           <h3 className="text-xl font-bold mb-2 text-[#7fd8f5] text-center">Otimizacao de Producao</h3>
           <div className="mb-2 text-lg text-center">
-            GET <span className="font-mono bg-[#233554] rounded px-1">{`{{base_url}}/api/production/optimize`}</span>
+            GET <span className="font-mono bg-[#233554] rounded px-1 flex justify-center">{`{{base_url}}/api/production/optimize`}</span>
           </div>
           <pre className="bg-[#233554] rounded p-4 text-xs overflow-x-auto mb-2 text-center">
             <code>{`{
@@ -213,35 +213,54 @@ mvn spring-boot:run`}</code>
           </pre>
         </section>
         
-        <section className="w-full flex flex-col items-center mb-8">
-          <h3 className="text-xl font-bold mb-2 text-[#7fd8f5] text-center">Cenarios de erro</h3>
-          <table className="w-full text-sm mb-4 border border-[#233554] text-center">
-            <thead>
-              <tr className="bg-[#233554]">
-                <th className="p-2">Cenario</th>
-                <th className="p-2">Request</th>
-                <th className="p-2">Esperado</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="p-2">ID inexistente</td>
-                <td className="p-2">GET /api/products/999</td>
-                <td className="p-2">404 Not Found</td>
-              </tr>
-              <tr>
-                <td className="p-2">Body invalido</td>
-                <td className="p-2">POST /api/products sem name</td>
-                <td className="p-2">400 Bad Request</td>
-              </tr>
-              <tr>
-                <td className="p-2">Sem estoque</td>
-                <td className="p-2">GET /api/production/optimize</td>
-                <td className="p-2">200 OK lista vazia</td>
-              </tr>
-            </tbody>
-          </table>
-        </section>
+        <section className="w-full flex flex-col items-center mb-12">
+  <h3 className="text-xl font-bold mb-6 text-[#7fd8f5] text-center">
+    Cenários de Erro
+  </h3>
+
+  <div className="w-full max-w-2xl space-y-6">
+
+    {/* Cenário 1 */}
+    <div className="bg-[#0d1626] border border-[#223b63] rounded-xl p-6 text-center shadow-lg">
+      <p className="text-lg font-semibold text-[#3fa9f5] mb-2">
+        ID inexistente
+      </p>
+      <p className="text-gray-300">
+        <span className="text-[#8ecae6] font-medium">Request:</span> GET /api/products/999
+      </p>
+      <p className="text-gray-300">
+        <span className="text-[#8ecae6] font-medium">Esperado:</span> 404 Not Found
+      </p>
+    </div>
+
+    {/* Cenário 2 */}
+    <div className="bg-[#0d1626] border border-[#223b63] rounded-xl p-6 text-center shadow-lg">
+      <p className="text-lg font-semibold text-[#3fa9f5] mb-2">
+        Body inválido
+      </p>
+      <p className="text-gray-300">
+        <span className="text-[#8ecae6] font-medium">Request:</span> POST /api/products sem name
+      </p>
+      <p className="text-gray-300">
+        <span className="text-[#8ecae6] font-medium">Esperado:</span> 400 Bad Request
+      </p>
+    </div>
+
+    {/* Cenário 3 */}
+    <div className="bg-[#0d1626] border border-[#223b63] rounded-xl p-6 text-center shadow-lg">
+      <p className="text-lg font-semibold text-[#3fa9f5] mb-2">
+        Sem estoque
+      </p>
+      <p className="text-gray-300">
+        <span className="text-[#8ecae6] font-medium">Request:</span> GET /api/production/optimize
+      </p>
+      <p className="text-gray-300">
+        <span className="text-[#8ecae6] font-medium">Esperado:</span> 200 OK (lista vazia)
+      </p>
+    </div>
+
+  </div>
+</section>
         
         <section className="w-full flex flex-col items-center mb-8">
           <h3 className="text-xl font-bold mb-2 text-[#7fd8f5] text-center">Script de validação automática (aba Tests do Postman)</h3>
